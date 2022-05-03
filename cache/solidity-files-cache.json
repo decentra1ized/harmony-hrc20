@@ -1,12 +1,12 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/decentra1ized/Documents/GitHub/harmony-hrc20/contracts/HRC20.sol": {
-      "lastModificationDate": 1649154563698,
-      "contentHash": "3b361547677168c3ea4918c30b6c657c",
-      "sourceName": "contracts/HRC20.sol",
+    "/Users/decentra1ized/Documents/GitHub/harmony-hrc20/contracts/Tesseract.sol": {
+      "lastModificationDate": 1651562291577,
+      "contentHash": "1e9ae8c1c79d12a2a17ed58c635a6661",
+      "sourceName": "contracts/Tesseract.sol",
       "solcConfig": {
-        "version": "0.6.6",
+        "version": "0.6.12",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -30,10 +30,24 @@
       },
       "imports": [],
       "versionPragmas": [
-        "=0.6.6"
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        "0.6.12",
+        ">=0.6.12"
       ],
       "artifacts": [
-        "HRC20"
+        "Authorizable",
+        "Context",
+        "ERC20",
+        "ERC20Burnable",
+        "IERC20",
+        "Ownable",
+        "SafeMath",
+        "Tesseract"
       ]
     }
   }

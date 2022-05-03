@@ -1,8 +1,8 @@
-pragma solidity =0.6.6;
+pragma solidity =0.6.12;
 
 contract HRC20 {
-    string public name     = "Wrapped ONE";
-    string public symbol   = "WONE";
+    string public name     = "Chaerin";
+    string public symbol   = "KCR";
     uint8  public decimals = 18;
 
     event  Approval(address indexed src, address indexed guy, uint wad);
